@@ -1,0 +1,16 @@
+ /*Main*/
+ .coding{
+    width: 40%;
+    margin-left: 15vh;
+    margin-top: -10vn;
+    border-radius: 10px;
+    margin-bottom: -10vh;
+  }
+  
+  .about{
+      margin-top: -47vh;
+      margin-left:  100vh;
+      font-family:'Courier New', Courier, monospace;
+      color: rgb(234, 20, 138);
+  }
+
