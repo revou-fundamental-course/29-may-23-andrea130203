@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="../Revou/img/Andrea.jpg">
+    <link rel="stylesheet" href="css/index.CSS">
+    <title>Alexa Code</title>
+    <script src="js/skrip.js"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo-container">
+            <img src="img/Andrea.jpg" alt="" class="Andrea">
+        </div>
+        <div class="menu-container">
+        </div>
+        <div class="head1"> 
+            <ul>
+                <li>Home</li>
+                <li> <a href="profile.html" class="profile">Our<a style="color:  rgb(255, 181, 222);">_</a>Profile</li>
+                <li> Portofolio </li>
+                <li> <a href="#Message" class="message"> Message<a style="color: rgb(255, 181, 222);">_</a>Us</li>
+            </ul>
+        </div>
+    </header>
+
+     <!--Main-->
+    <main>
+        <div class="nama">
+            <div>
+                <h3style="margin-top: 20%;>Hi <span id="name1">       </span >, Welcome to Website</h3>
+                    <script>
+                        var name1 = prompt("Masukan Nama Anda");
+                        document.getElementById("name1").innerText=name1;
+                  </script>
+                   <p style="color: rgb(234, 20, 138); text-align: center; font-size: small;">Ini adalah website latihan pertama</p>
+            </div>
+           
+        </div>
+   
+        <div class="gambar123">
+            <br>
+            <h2 id="Portofolio" style="color:rgb(234, 20, 138); text-align: center;">Our Headquarter</h2>
+            <div class="image-container">
+                <figure>
+                    <img src="img/gambar1.jpg" alt="" style="border-radius: 50%;">
+                    <figcaption>Purwokerto</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/gambar2.jpg" alt="" style="border-radius: 50%;">
+                    <figcaption>Salatiga</figcaption>
+                </figure>
+                <figure>
+                    <img src="img/gambar3.jpg" alt="" style="border-radius: 50%;">
+                    <figcaption>Jakarta</figcaption>
+                </figure>
+            </div>
+        </div>
+        
+        
+            <h2 id="Message" style="color:rgb(234, 20, 138); margin-left: 45%; margin-top: 20vh;">Message Us</h2>
+            <div class="form">
+                <div style="display: flex;">
+                    <div style="flex: 1;">
+                        <div>
+                            <form name="message-form" onsubmit="return validateForm()">
+                                    <table>
+                                    <tr>
+                                        <td>Nama</td>
+                                        <td><input placeholder="Nama Lengkap" type="text" name="full-name" /></td>
+                                    </tr>
+                
+                                    <tr>
+                                        <td>Tanggal lahir</td>
+                                        <td><input type="date" name="birth-date" /></td>
+                                    </tr>
+                
+                                    <tr>
+                                        <td>Gender</td>
+                                        <td>
+                                            <input type="radio" id="male" name="gender" value="male" />
+                                            <label for="male">male</label>
+                                            <input type="radio" id="female" name="gender" value="female">
+                                            <label for="female">female</label>
+                                        </td>
+                                    </tr>
+                
+                                    <tr>
+                                        <td>Pesan</td>
+                                        <td><textarea placeholder="Pesan Anda" name="messages"></textarea></td>
+                                    </tr>
+                                    <Td><input type="submit" value="submit" class="buton"></Td>
+                                </table>
+                                </form>
+                            </div>  
+                        <div style="width: 10%; height: 10vh;">
+                        <form name="message-form" onsubmit="return validateForm()">
+                        </div>
+                        </div>
+                    <div style="flex: 1;">
+                        <div style="margin-left: 10vh;">
+                            <table>
+                                <div>
+                                    <table>
+                                            <tr>
+                                                <td>Nama</td>
+                                                <td><span id="sender-full-name"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tanggal Lahir</td>
+                                                <td><span id="sender-birth-date"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Gender</td>
+                                                <td><span id="sender-gender"></span></td>    
+                                            </tr>
+                                            <tr>
+                                                <td>Pesan</td>
+                                                <td><span id="sender-messages"></span></td>
+                                            </tr>
+                                    </table>
+                                </div>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+         </main>
+        <hr>
+
+        <!--Foter-->
+        <footer>
+        <p style="text-align: right; color: rgb(234, 20, 138);">Created By Andrea Cellista<p>
+        </footer>
+</body>
+
+
