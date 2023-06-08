@@ -1,0 +1,121 @@
+/*framework navbar*/
+@media (max-width: 1000px) {
+
+
+    .logo-container {
+        text-align: center;
+    }
+  
+    .menu-container {
+        display: none;
+    }
+  
+    .head1 ul {
+        text-align: right;
+        margin-top: -70px;
+    }
+  
+    .head1 ul li {
+        display: block;
+        margin-bottom: 10px;
+      
+    }
+}
+
+
+
+/*Framework Our Headquarter*/
+
+.gambar123 {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-container figure {
+    flex-basis: calc(50% - 20px);
+    max-width: 300px;
+    text-align: center;
+}
+
+
+
+
+  /*Header*/
+.Andrea {
+    height: 80px;
+    margin: 7px;
+    border-radius: 100px;
+    border: 2px solid rgb(234, 20, 138);
+    float: left;}
+
+.head1{
+    margin-left: 100vh;
+    float: right;}
+  
+header{
+    border: 2px solid rgb(255, 181, 222);
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 181, 222);}
+
+ul{
+    
+    display: flex;
+    margin: 20px;
+    list-style: none;
+    color: rgb(234, 20, 138); }
+    
+li{
+    border: 1px solid rgb(234, 20, 138);
+    list-style-type: none;
+    padding: 15px;
+    margin: auto;}
+
+.profile{
+    text-decoration: none;
+    color: rgb(234, 20, 138);
+}   
+    
+
+.message{
+    text-decoration: none;
+    color: rgb(234, 20, 138);
+}
+
+ /*Main*/
+ .nama{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%; 
+    height: 85vh; 
+    color:rgb(234, 20, 138);
+    font-size: 10vh;}
+
+.gambar123{
+    background-color: rgb(255, 181, 222); 
+    margin-top: 10%;}
+
+.form{
+    flex: 1; 
+    border-radius: 10%;
+    padding-top: 10vh;
+    margin-bottom: 20vh;
+    margin-left: 10vh;
+  
+}
+
+.buton{
+    border: 1px solid white;
+    background-image: linear-gradient(to right,rgb(198, 180, 190), rgb(195, 113, 158));
+    border-radius: 20vh;
+    margin: 50%;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="../Revou/img/Andrea.jpg">
+    <link rel="stylesheet" href="css/index.CSS">
+    <title>Alexa Code</title>
+    <script src="js/skrip.js"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo-container">
+            <img src="img/Andrea.jpg" alt="" class="Andrea">
+        </div>
+        <div class="menu-container">
+        </div>
+        <div class="head1"> 
+            <ul>
+                <li>Home</li>
+                <li> <a href="profile.html" class="profile">Our<a style="color:  rgb(255, 181, 222);">_</a>Profile</li>
+                <li> Portofolio </li>
+                <li> <a href="#Message" class="message"> Message<a style="color: rgb(255, 181, 222);">_</a>Us</li>
+            </ul>
+        </div>
+    </header>
+
+     <!--Main-->
+    <main>
+        <div class="nama">
+            <div>
+                <h3style="margin-top: 20%;>Hi <span id="name1">       </span >, Welcome to Website</h3>
+                    <script>
+                        var name1 = prompt("Masukan Nama Anda");
+                        document.getElementById("name1").innerText=name1;
+                  </script>
+                   <p style="color: rgb(234, 20, 138); text-align: center; font-size: small;">Ini adalah website latihan pertama</p>
+            </div>
+           
+        </div>
+   
+        
+        
+            <h2 id="Message" style="color:rgb(234, 20, 138); margin-left: 45%; margin-top: 20vh;">Message Us</h2>
+            <div class="form">
+                <div style="display: flex;">
+                    <div style="flex: 1;">
+                        <div>
+                            <form name="message-form" onsubmit="return validateForm()">
+                                <table>
+                                    <tr>
+                                        <td>Nama</td>
+                                        <td><input placeholder="Nama Lengkap" type="text" name="full-name" /></td>
+                                    </tr>
+                
+                                    <tr>
+                                        <td>Tanggal lahir</td>
+                                        <td><input type="date" name="birth-date" /></td>
+                                    </tr>
+                
+                                </table>
+                                </form>
+                            </div>  
+                        <div style="width: 10%; height: 10vh;">
+                        <form name="message-form" onsubmit="return validateForm()">
+                        </div>
+                        </div>
+                    
+                </div>
+         </main>
+        <hr>
+
+        <!--Foter-->
+        <footer>
+        <p style="text-align: right; color: rgb(234, 20, 138);">Created By Andrea Cellista<p>
+        </footer>
+</body>
+
+
